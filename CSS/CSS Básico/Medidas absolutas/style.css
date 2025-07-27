@@ -1,0 +1,21 @@
+.pixel{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%) ;
+    background-color: aqua;
+    max-width: 1024px;
+    min-width: 250px;
+    height: 400px;
+    text-transform: capitalize;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+input{
+    background-color: black;
+    padding: 10px;
+    border-radius: 360px
+}    

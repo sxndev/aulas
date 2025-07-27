@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs de texto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Input de texto</h1>
+    
+    
+
+    <p>Todo tipo de tag input deve ter um atributo "type" ( tipo do input)</p>
+
+    <ul>types para input text:</ul>
+
+    <li><b>Name -</b> para inserir nomes </li>
+    <li><b>Email -</b> para inserir email </li>
+    <li><b>Number -</b> para inserir números </li>
+    <li><b>Password -</b> para digitar senha </li>
+    <li><b>Submit -</b>  cria um botão e envia para um formulário</li>
+    <li><b> Checkbox -</b> cria uma caixa para seleção </li>
+    <li><b> Radio -</b> Cria uma bolinha de seleção única, diferente do checkbox que pode ter vários itens selecionados </li>
+    <li><b>Button -</b> Cria um botão</li>
+    <li><b> File -</b> Permite que o usuário adicione um arquivo</li>
+
+    <p>Um atributo importante, é o *placeholder, o valor dele aparecerá "no fundo" do elemento do imput, isso facilitará o usuário na hora de saber qual campo ele está preenchendo, Exemplo</p>
+
+
+    <input type="text" name="test" id="test" placeholder="placeholder fica aqui" >
+    
+
+    <p>inputs na prática:</p>
+
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" name="nome"> 
+    
+   <br> <label for="email">Email</label>
+    <input type="text" name="email">
+    
+    <br> <label for="numeros">Números</label> 
+    <input type="number" name="numeros" id="numeros">
+
+    <br> <label for="senha">Senha</label>
+    <input type="password" name="senha" id="senha">
+
+    
+
+    <br> <label for="submit">Enviar</label>
+    <input id="submit" type="submit" name="enviar">
+
+    <br> <label for="checkbox">Caixa de seleção múltipla</label>
+    <input id="checkbox" type="checkbox" name="selecionar">
+    <input id="checkbox" type="checkbox" name="selecionar">
+    <input id="checkbox" type="checkbox" name="selecionar">
+
+    <br> <label for="radio">Seleção única</label>
+    <input type="radio" name="selecionar" id="radio">
+    <input type="radio" name="selecionar" id="radio">
+    <input type="radio" name="selecionar" id="radio">
+   
+    
+   
+        
+        
+        <br> <label for="button"><B></B>Botão</label>
+        <a href="./index2.html"> <input type="button" id="button" value="Clique aqui">
+
+
+</a>
+
+
+
+
+
+
+
+</body>
+</html>

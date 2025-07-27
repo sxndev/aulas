@@ -1,0 +1,37 @@
+/* 
+
+    flex-wrap é uma propriedade de flex-container
+
+    define se os itens devem quebrar a linha ou não, por padrão eles não quebram, isso faz com que os flex-itens sejam compactados sempre respeitando o limite do conteúdo (largura, altura e etc)
+
+    move os itens ao longo do eixo transversal dependendo do valor do flex-direction , e quando não tem espaço disponível ele qubra os itens ao longo do eixo transversal
+*/
+.nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    /* esse valor diminui a largura dos items para caber no container */
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* ele mantém a largura dos itens, e quando não tem espaço ele quebra a linha, não muda altura e largura dos itens, e se o flex-direction tivesse definido como column, quando os itens ocupassem a altura toda do container, ele quebraria a linha para a esquerda   */
+}
+.wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* a linha começa de baixo para cima (flex-direction:row;) 
+       a linha comeã da direita para a esquerdda  (flex-direction:column;)  
+    */
+}
+
+.flex-flow{
+    flex-flow: row wrap;
+    /* 
+    
+    abreviação para flex diretion e flex-wrap, o primeiro valor é do flex-direction e o segundo é do flex-wrap
+    
+    SINTAXE: flex-flow: valor do flex-direction valor do flex-wrap;
+    
+    */
+}

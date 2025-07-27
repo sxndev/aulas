@@ -1,0 +1,27 @@
+/* a propriedade Flex serve para usar as propriedades flex-grow, flex-basis e flex-shrink de forma abreviada
+
+SINTAXE: 
+
+flex: flex-grow flex-shrink flex-basis
+
+
+o segundo valor e o terceiro são opcionais
+
+se a propriedade flex tiver com o valor definido como 0, esse valor será definido apenas para o flex-grow, se não informarmos o valor das outras propriedades, o valor delas serão definidos com o seu valor padrão (flex-shrink:1; e o flex-basis:0;)
+
+*/
+
+
+.container {
+  display: flex;
+}
+
+.flex-0 {
+  flex: 0;
+}
+
+.flex-1 {
+  flex: 0 1 150px;
+}
+
+

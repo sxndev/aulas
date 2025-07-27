@@ -1,0 +1,31 @@
+/* display:flex; e flex-direction sempre no container pai
+
+
+        eixo principal horizontal por padrão
+        eixo transversal vertical por padrão
+
+    quando mudamos alguma propriedade com flex-direction, ela também muda o eixo da linha principal e o eixo transversal
+
+    se usarmos o flex-directon:column;, ele "deita" o container e invert os eixos,  fazendo com que o eixo principal fique na vertical e o eixo transversal fique na horizontal
+
+*/
+
+.row{
+    display: flex;
+    /* flex-direction:definido como padrão; */
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    /* inverte o inicio e o fim dos eixos */
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    /* inverte o inicio e o fim dos eixos */
+}

@@ -1,0 +1,16 @@
+ @media (max-width:720px)
+ {
+    .quadrado{
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+    }
+ }
+ @media (max-width:1000px){
+.quadrado{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+    text-align: center;
+}}

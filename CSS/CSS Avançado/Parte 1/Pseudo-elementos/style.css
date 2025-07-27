@@ -1,0 +1,30 @@
+/* seletor::pseudo-elemento{
+    propriedade:valor;
+}
+
+pseudo-elementos só funcionam em elementos do display block e estilizam UMA PARTE do elemento
+*/
+
+p::first-letter{   
+    /* estiliza a primeira letra de um texto */
+    color: blue;
+}
+.first-line::first-line{
+    background-color: aqua;
+     /* estiliza a primeira linha de um texto */
+}
+li::marker{
+    color: red;
+    font-size: 23px;
+    /* estiliza os marcadores de uma li */
+}
+.after::after{
+    content: url(image/gato\ de\ bosta); 
+    /* carrega um elemento antes do seletor */
+}
+.before::before{
+    content: url(image/gato\ de\ bosta);
+    /* carrega um elemento depois do seletor */
+}
+
+/* as pseudo-classes "before" e "after" devem ter a propriedade "content" para dizer o que vem antes ou depois do seletor */

@@ -1,0 +1,80 @@
+/* Pseudo-classes de interação */
+a:link {
+  color: blue; /* Link padrão */
+}
+
+a:visited {
+  color: purple; /* Link visitado */
+}
+
+a:hover {
+  color: red; /* Quando passar o mouse */
+}
+
+a:active {
+  color: orange; /* Enquanto estiver clicando */
+}
+
+/* Foco em campos */
+input:focus {
+  border: 2px solid green;
+}
+
+/* Estados de formulários */
+input:checked + label {
+  font-weight: bold;
+  color: green;
+}
+
+input:disabled {
+  background-color: lightgray;
+}
+
+input:required {
+  border: 2px dashed red;
+}
+
+input:valid {
+  background-color: lightgreen;
+}
+
+input:invalid {
+  background-color: pink;
+}
+
+/* Estrutura de elementos */
+li:first-child {
+  color: blue;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(odd) {
+  background-color: #f0f0f0; /* Ímpares */
+}
+
+li:nth-child(even) {
+  background-color: #ddd; /* Pares */
+}
+
+li:only-child {
+  font-style: italic;
+}
+
+/* Negação */
+div:not(.excluir) {
+  background-color: #eef;
+}
+
+/* Elemento vazio */
+p:empty {
+  border: 1px solid red;
+  height: 20px;
+}
+
+/* Elemento alvo via âncora */
+section:target {
+  background-color: yellow;
+}

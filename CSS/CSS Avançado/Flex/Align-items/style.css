@@ -1,0 +1,30 @@
+.flex-start{
+    display: flex;
+    align-items: flex-start;
+}
+.flex-end{
+    display: flex;
+    align-items: flex-end;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.stretch{
+    display: flex;
+    align-items: stretch;
+    /* faz o elemento ocupar a ALTURA máxima do container, só funciona caso  elemento não tenha uma altura ou largura fixa, ele é o valor padrão do align-items  */
+}
+.baseline{
+    display: flex;
+    align-items: baseline;
+    /* alinha os itens pela linha de base do conteúdo. flex-direction:column; não se aplica nela*/
+}
+
+.container div.baseline-2{
+    font-size: 40px;
+}
+
+.container div.baseline-3{
+    font-size: 100px;
+}

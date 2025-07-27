@@ -1,0 +1,43 @@
+/* 
+    PROPRIEDADES DO GRID:
+    
+    grid-template-columns: Define as colunas do grid.
+
+    grid-template-rows: Define as linhas do grid.
+
+    grid-template-rows: repeat(2, 170px);
+    
+    o valor do repeat define quantas colunas terão o tamanho definido no segundo valor, no exemplo acima, as 2 primeiras colunas tem o valor de 170px.
+
+    // FORMA ABREVIADA //
+    grid-template: repeat(1, 150px) / repeat (2, auto);
+
+    o primeiro valor é para as linhas e o segundo é para as colunas
+
+--------------------------------------
+
+    // grid-gap //
+
+    grid-gap: 50px; define o espaço entre colunas e linhas 
+
+    grid-column-gap:60px; define espaço somente entre as colunas
+
+    grid-row-gap: 30px; define o espaço somente entre as linhas
+
+    grid-gap:30px 10px; o primeiro valor é o espaçamento entre linhas e o segundo é entre as colunas
+
+    grid-gap não é mais usado!, agora é só usar o gap
+
+-------------------------------------------------------------
+    // minmax //
+
+    grid-template-columns: repeat(5, minmax(100px, 800px));
+
+    minmax é um valor que define a largura mínima e máxima de uma linha ou coluna, no exemplo acima, 5 colunas foram definidas com a largura mínima de 100px, e a máxima de 800px, o tamanho vai se ajustando automaticamente conforme a tela for mudando de tamanho
+
+
+
+
+
+
+*/

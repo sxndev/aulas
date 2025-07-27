@@ -1,0 +1,37 @@
+/* a propriedade do seletor ":root" define um tipo de estilização que vai ser usado em vários elementos e para usar no elemento, deve se usar: 
+
+seletor{
+    regra: var(nome da propriedade usada no root); 
+}
+
+ela serve para substituir um agrupamento de seletores, e não se deve colocar uma regra nela, apenas o valor
+*/
+
+
+
+:root {
+  --cor-padrao: rgb(22, 4, 4);
+  --tamanho-fonte-padrao: 40px;
+}
+
+h2 {
+  --cor-padrao: #af1a1a;
+
+  color: var(--cor-padrao, green);
+  font-size: var(--tamanho-fonte-padrao, 30px);
+}
+
+h3 {
+  background-color: var(--cor-padrao, purple);
+  font-size: var(--tamanho-fonte-padrao, 30px);
+}
+
+.paragrafo {
+  color: var(--cor-padrao, purple);
+  font-size: var(--tamanho-fonte-padrao, 30px);
+}
+
+span {
+  color: var(--cor-padrao, purple);
+  font-size: var(--tamanho-fonte-padrao, 30px);
+}

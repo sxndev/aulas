@@ -1,0 +1,24 @@
+/* a propriedade grow serve para definir a capacidade de um elemento aumentar de tamanho e ocupar o espaço dentro de um flex-container
+
+possui valores inteiros de 0 a 3, maior valor = ocupa mais espaço, menor valor = ocupa menos espaço
+
+se o conteudo do elemento dentro de um item com flex-grow for grande, ele aumentará de tamanho também independente da regra definida no flex-grow
+
+
+*/
+
+.container{
+    display: flex;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.grow-2{
+    flex-grow: 2;
+}
+
+.grow-3{
+    flex-grow: 3;
+}

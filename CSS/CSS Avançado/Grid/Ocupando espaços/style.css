@@ -1,0 +1,81 @@
+.vermelho {
+  background-color: red;
+}
+
+.laranja {
+  background-color: orange;
+}
+
+.amarelo {
+  background-color: yellow;
+}
+
+.verde {
+  background-color: green;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.roxo {
+  background-color: violet;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 15px;
+}
+/*
+
+se quisermos que um elemento ocupe apenas uma linha e 3 colunas, ao invés de mandarmos ele ocupar 3, adicionamos mais um, no caso fica quatro, que é para ele entender que só pode ir até a 4° coluna mas não pode ocupar o espaço dela
+
+*/
+.vermelho {
+  /* grid-column: 1 / 3;
+  grid-row: 1 / 3; */
+
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.laranja {
+  /* grid-column: 3 / 6; */
+  grid-area: 1 / 3 / 1 / 6;
+}
+
+.amarelo {
+  /* grid-column: 1 / 3; */
+  grid-area: 3 / 1 / 3 / 3;
+}
+
+/* Também é possível utilizar o span para informar a quantidade de linhas ou colunas a serem ocupadas pelo elemento: 
+
+  grid-column: 1 / span 6;
+
+  no código acima, a coluna se inicia na 1° coluna e expande até a 6° coluna, sem precisar adicionar um valor a mais para o item ocupar o espaço desejado
+
+  se usarmos o span com o mesmo valor em mais de 1 elemento, o item vai "quebrar" e vai ocupar o mesmo espaço definido
+
+  // grid-area //
+
+  abreviação para o grid-column e grid-row, os 2 primeiros valores são referentes ao inicio da linha e da coluna, os 2 útimos são referentes ao fim da linha e o fim da coluna
+
+*/
+.verde {
+  /* grid-column: 3 / span 2;
+  grid-row: 2 / span 2; */
+  grid-area: 2 / 3 / 4 / 5;
+}
+
+.azul {
+  /* grid-column: 5;
+  grid-row: 2; */
+  grid-area: 2 / 5 / 2 / 5;
+}
+
+.roxo {
+  /* grid-column: 5; */
+  grid-area: 3 / 5 / 3 / 5;
+}

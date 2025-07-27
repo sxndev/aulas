@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quarto exercício do módulo de HTML avançado do curso DevQuest."
+    />
+    <title>Áudio</title>
+  </head>
+  <body>
+    <h1>Áudio</h1>
+    <p>
+      Diferentes navegadores têm diferentes suporte para os tipos de áudio
+      (.mp3, .ogg e .wav). O Safari, por exemplo, não suporta áudios do tipo
+      .ogg. Para resolver este problema utilizamos a tag
+      <code>&lt;source&gt;</code>. Inspecione o código para ver os comentários!
+    </p>
+    <!-- <audio src="audios/audio.mp3" controls preload="metadata"></audio> -->
+    
+    <!-- control: serve para aparecer os controles do áudio na tela, sem ele não é possível ouvir o audio 
+     
+    o google não permite usar o autoplay para o áudio tocar automaticamente
+
+    preload: 
+    auto (carrega todo o áudio assim que a página carregar)
+
+    metadata: carrega somente algumas informações do áudio
+
+    none: não carrega nada do áudio, só carrega quando clicar no play
+
+    EXISTE 3 TIPOS DE EXTENSÕES DE ÁUDIO
+
+    mp3, ogg e wav
+
+    -->
+    <audio controls>
+      <source src="audios/audio.ogg" type="audio/ogg" />
+      <source src="audios/audio.mp3" type="audio/mpeg" />
+      <source src="audios/audio.wav" type="audio/wav" />
+      <p>
+        Seu navegador não tem suporte para áudio. Recomenda-se baixar o
+        <a href="https://www.google.com/chrome/" target="_blank"
+          >Google Chrome</a>.
+
+        <!-- como alguns navegadores não tem suporte a tag áudio, usa-se a tag source para carregar outro tipo de áudio caso ele não carregue.
+         
+        existe um site para converter os áudios de uma extensão para outra
+        -->
+
+      </p>
+    </audio>
+  </body>
+</html>

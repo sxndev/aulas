@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Pseudo-Classes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Pseudo-Classes CSS</h1>
+
+  <!-- Links -->
+  <a href="#secao1">Link 1 (não visitado)</a><br>
+  <a href="#secao2">Link 2</a>
+
+  <hr>
+
+  <!-- Formulário -->
+  <form>
+    <input type="text" required placeholder="Obrigatório"><br>
+    <input type="email" placeholder="Email (validação)"><br>
+    <input type="checkbox" id="aceita">
+    <label for="aceita">Aceito os termos</label><br>
+    <input type="text" value="Desabilitado" disabled><br>
+  </form>
+
+  <hr>
+
+  <!-- Lista -->
+  <ul>
+    <li>Primeiro</li>
+    <li>Segundo</li>
+    <li>Terceiro</li>
+  </ul>
+
+  <!-- Lista com um só item (only-child) -->
+  <ul>
+    <li>Único item</li>
+  </ul>
+
+  <hr>
+
+  <!-- Div com :not -->
+  <div class="manter">Essa div é afetada por :not(.excluir)</div>
+  <div class="excluir">Essa div não é afetada</div>
+
+  <hr>
+
+  <!-- Parágrafo vazio -->
+  <p></p>
+
+  <hr>
+
+  <!-- Seção com :target -->
+  <a href="#destino">Ir para a seção</a>
+  <section id="destino">
+    <p>Seção alvo com :target</p>
+  </section>
+
+</body>
+</html>

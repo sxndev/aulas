@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+h1{
+    color: antiquewhite;
+}
+p{
+    color:white;  
+}
+h2{
+color: aliceblue;
+}
+ol{
+    color: aliceblue;
+}
+.codigo-css{
+    background-color: red;
+    display: inline;
+}
+.fonte-teste{
+    font-family:Silkscreen;
+}

@@ -1,0 +1,26 @@
+:root{
+    --cor-padrao--:#129712;
+    --fonte-padrao--:'Public sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, a, li, span{
+    font-family: var(--fonte-padrao--);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn, a{
+    cursor: pointer;
+}

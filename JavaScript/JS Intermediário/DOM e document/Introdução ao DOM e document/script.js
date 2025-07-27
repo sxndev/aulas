@@ -1,0 +1,1 @@
+// DOM é a sigla para Document Object Model ( Modelo de Objeto de Documento) atráves do DOM a gente pode selecionar e manipular elementos do nosso documento html

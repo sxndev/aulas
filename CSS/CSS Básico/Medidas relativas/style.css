@@ -1,0 +1,32 @@
+/* principais unidades de medidas relativas, que são: em, rem e %. 
+
+em=16px
+
+rem= ele olhará para a propriedade da raiz (html) e seu tamanho será definido a partir dela
+
+1em = 16px (seu tamanho será definido de acordo com o tamanho do seu pai ex:2em = o dobro do tamanho do pai)
+
+O font-size padrão dos parágrafos é 16px
+*/
+html {
+  background-color: gray;
+}
+
+
+body {
+  background-color: blueviolet;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.pai {
+  background-color: violet;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.filho {
+  background-color: aquamarine;
+  width: 50%;
+  font-size: 1.5em;
+}

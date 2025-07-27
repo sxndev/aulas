@@ -1,0 +1,5 @@
+@media (max-width:320px) {
+    .fa-dice-five{
+        transform: translateY(5vh);
+}
+}

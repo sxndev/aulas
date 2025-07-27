@@ -1,0 +1,36 @@
+/* 
+
+seletor:pseudo-classe{
+  propriedade:valor;
+}
+
+NTH-CHILD:
+seletor:nth-child( especificação ){
+  propriedade:valor;
+}
+*/
+p:first-child {
+  color: blueviolet;
+  /*
+  estiliza o primeiro elemento
+  */
+}
+
+p:last-child {
+  color: aquamarine;
+  /* estiliza o ultimo elemento */
+}
+
+ul li:nth-child(even) {
+  color: orangered;
+  /* define se estiliza os elementos ímpares (odd) ou páres (even) */
+}
+
+ol li:not(.teste) {
+  color: green;
+  /* estiliza todos os elementos que não possuem a classe escrita dentro das aspas, no caso acima, todos os elementos que não possuem a classe "test" terão a cor laranja */
+}
+
+p:only-child {
+  color: deeppink;
+}

@@ -1,0 +1,97 @@
+/* justify-content deve ser colocado no container pai
+
+    se move ao longo do eixo principal
+
+    alinha os itens na horizontal do container
+
+*/
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start; 
+    /* alinha no inicio do eixo principal (propriedade padrão)*/
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;   
+    /* alinha no fim do eixo principal */
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    /* alinha no centro do eixo principal */
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    /* distribui os itens de acordo com o espaço disponivel no container e deixa os itens mais perto da borda
+    */
+}
+
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    /* dá um espaçamento ao redor dos itens */
+}
+
+.space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    /* dá um espaçamento uniforme tanto entre os itens tanto nas bordas */
+}
+
+
+
+.container.space-around div,
+.container.space-evenly div,
+.container.space-between div {
+    margin: 0;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

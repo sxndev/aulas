@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  padding: 3em;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+/*o auto-fit serve para "quebrar" as colunas para caber na tela e muda o tamanho fazendo o item ocupar o espaço todo do container, funciona igual o flex-wrap:wrap; 
+
+o auto-fill funciona igualmente, porem ele respeita a largura máxima definida e não expande 
+*/
+.container p {
+  padding: 2em;
+  border-radius: 0.3em;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}

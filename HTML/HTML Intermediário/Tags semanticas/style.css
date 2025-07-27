@@ -1,0 +1,21 @@
+body{
+background-color: black;
+}
+
+h1{
+color:white;
+}
+li{
+    color:white;
+}
+a{
+    color: white;
+}
+figcaption{
+    background-color:#FF4433;
+    display: inline-block;
+    color: white;
+}
+b{
+    color: red;
+}

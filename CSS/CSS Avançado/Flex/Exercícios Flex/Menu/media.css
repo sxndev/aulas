@@ -1,0 +1,13 @@
+@media (max-width:670px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+} 
+    

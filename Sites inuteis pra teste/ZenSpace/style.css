@@ -1,0 +1,101 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f9f8;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 24px;
+  color: #2d6a4f;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2d6a4f;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #a8dadc, #f1faee); 
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #1d3557;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #2d6a4f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #1b4332;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 40px;
+  background-color: #ffffff;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature h3 {
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #555;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e6f2f0;
+  font-size: 14px;
+}

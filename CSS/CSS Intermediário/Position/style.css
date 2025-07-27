@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+  }
+  
+  .elemento {
+    color: #fff; 
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .elemento-estatico {
+    position: static;
+    background-color: crimson;
+  
+  }
+  
+  .elemento-relativo {
+    position: relative;
+    background-color: coral; 
+    left: 100px;
+    top:00px;
+  }
+  
+  .elemento-absoluto {
+    position: absolute;
+    background-color: darkcyan; 
+    left: 150px;
+  }
+  
+  .elemento-relativo-com-filho {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+  }
+  
+  .elemento-absoluto-com-pai {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 15px;
+  
+    background-color: darkcyan;
+  }
+  .independente{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+  }
+  

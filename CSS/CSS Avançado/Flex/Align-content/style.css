@@ -1,0 +1,48 @@
+/* align-content alinha as linhas do container em relação ao eixo vertical 
+   a propriedade só funciona se existir mais de uma linha de flex-itens, para isso o flex-wrap precisa ser definido com o valor wrap
+   o efeito só é possível ver caso container seja maior que a soma das linhas dos itens, para funcionar o container precisa ter uma altura definida, se uma altura não for definida para o container, a propriedade não vai funcionar no layout
+
+*/
+
+.flex-start{
+   display: flex;
+   align-content: flex-start;
+   flex-wrap: wrap;
+}
+
+.flex-end{
+   display: flex;
+   align-content: flex-end;
+   flex-wrap: wrap;
+}
+
+.center{
+   display: flex;
+   align-content: center;
+   flex-wrap: wrap;
+}
+
+.space-between{
+   display: flex;
+   align-content: space-between;
+   flex-wrap: wrap;
+}
+
+.space-around{
+   display: flex;
+   align-content: space-around;
+   flex-wrap: wrap;
+}
+
+.space-evenly{
+   display: flex;
+   align-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.stretch{
+   display: flex;
+   align-content: stretch;
+   flex-wrap: wrap;
+   /* estica/alonga os itens para que eles ocupem a largura máxima dos itens mas só funciona se remover a altura fixa do elemento  */
+}

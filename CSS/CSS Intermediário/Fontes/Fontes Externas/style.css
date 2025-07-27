@@ -1,0 +1,13 @@
+@font-face {
+    font-family:'starbim' ;
+    src: url('./fontes-baixadas/Starbim.otf');
+}
+.comando-css{
+    background-color: aqua;
+}
+h3{
+    display:block ;
+}
+p{
+    font-family: 'starbim';
+}

@@ -1,0 +1,66 @@
+body{
+    background: url(./images/background-image.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s ease-in-out;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width:20vw;
+    height: 50vh;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(58, 15, 214, 0.315);
+    transition: 0.7s ease-in-out;
+
+}
+form:hover{
+    width:21vw;
+    height: 55vh;
+    box-shadow: 1px 5px 90px 10px;
+}
+
+input{
+    border-radius: 4px;
+    padding: 6px;
+    background-color: rgba(60, 10, 126, 0.274);
+    border: solid 2px #ffffff;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    color: white;
+    font-weight: 700;
+}
+
+input:hover{
+    box-shadow: 1px 5px 90px 10px;
+    transition: 0.7s ease-in-out;
+    transition: 1s ease-out;
+    width: 70%;
+    height: 8%;
+}
+
+
+.btn{
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: rgba(13, 4, 44, 0.781);
+}
+
+.btn:hover{
+    box-shadow: 1px 5px 50px 1px;
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+}
