@@ -1,4 +1,4 @@
-// um método nada mais é do que uma condição
+// um método é a utilização de uma propriedade dentro de um objeto, e utiliza o . para navegar dentro do objeto e usar uma propriedade dele
 
 let usuario = {
     nome: 'nicolas',
@@ -7,6 +7,7 @@ let usuario = {
     }
 }
 
-usuario.excluir() // chamei uma propriedade do objeto e ela foi executada
+usuario.excluir() // isso é chamado de método
 
 // eu devo usar o () pois isso vai realmente chamar a função
+ 
