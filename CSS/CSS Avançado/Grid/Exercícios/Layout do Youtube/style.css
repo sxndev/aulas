@@ -32,6 +32,8 @@ section{
 
 .video-1{
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     grid-area: 2 / 2 / 3 / 2;
     background-color: darkorange;
 }
@@ -46,26 +48,25 @@ section{
     display: flex;
     background-color: brown;
     grid-area: 4 / 2 / 5 / 2;
-
 }
 
 .video-principal{
     width: 100%;
 }
 img{
-    display: inline-block;
+    width: 100%;
 }
 img:not(.atual-video){
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 
 .video-info{
-    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
 }
 
-.vídeo-info h2, p{
-    max-width: max-content;
-    max-height: max-content;
-    font-size: 14px;
-}
+/* .vídeo-info h2, p{
+    
+} */
