@@ -7,6 +7,7 @@ let listaDeCompras = [
   "Abobrinha",
   "Chocolate",
 ];
+
 // lista todos os itens da lista de compra dentro do console
 for (let i = 0; i < listaDeCompras.length; i++) {
   console.log("Item " + (i + 1) + ": " + listaDeCompras[i]);

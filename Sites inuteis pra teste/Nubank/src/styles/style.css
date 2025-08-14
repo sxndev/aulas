@@ -108,11 +108,3 @@ main{
     background-color: #222222;
     cursor: pointer;
 }
-
-
-div{
-    display: flex;
-    flex-direction: column;
-    grid-area: 2 / 1 / 3 / 2;
-    gap: 10px;
-}
