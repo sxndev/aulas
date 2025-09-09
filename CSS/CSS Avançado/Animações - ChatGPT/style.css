@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+}
+@keyframes slideIn{
+    0%{ transform: translateX(100%);}
+    100%{ transform: translateX(0);}
+} 
+.slideIn{
+    animation: slideIn 1s ease-out forwards;
+}
+@keyframes slideUp{
+    0%{transform: translateY(10vh); opacity: 0;}
+    100%{transform: translateY(0); opacity: 1;}
+}
+.slideUp{
+    animation: slideUp 1s ease-in-out;
+}
+ul{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li{
+    gap: 30px;
+    border: solid 5px white;
+    color: white;
+    padding: 10px;
+}
+
+
+.content{  
+    width: 100vw;
+    height: 10vh;
+    background-color: blue;
+}
+
+button{
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    left:45%;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+}
+
+/*
+        SINTAXE DA KEYFRAMES
+
+@keyframes nome-da-animacao {
+  0%   { propriedade: valor; }
+  50%  { propriedade: valor; }
+  100% { propriedade: valor; }
+}
+
+.elemento {
+  animation: nome-da-animacao duração easing delay repetição direção fill-mode;
+} 
+  
+Propriedades da animation
+
+Essas são as chaves para dominar animações:
+
+animation-name → nome que você deu ao @keyframes.
+
+animation-duration → tempo da animação (2s, 500ms). 
+
+animation-timing-function → curva de aceleração (linear, ease, ease-in, etc.).
+
+animation-delay → tempo antes da animação começar.
+
+animation-iteration-count → quantas vezes repete (1, infinite).
+
+animation-direction → direção:
+
+normal → do 0% ao 100% (padrão).
+
+reverse → do 100% ao 0%.
+
+alternate → vai e volta.
+
+alternate-reverse → volta e vai.
+
+animation-fill-mode → estado final ou inicial da animação:
+
+none → volta ao estado inicial depois.
+
+forwards → mantém o último estado.
+
+backwards → aplica o estilo inicial antes do delay.
+
+both → combina os dois.
+
+animation-play-state → controlar com JS (running ou paused).
+
+.elemento {
+  animation: nome-da-animacao duração easing delay repetição direção fill-mode;
+}
+*/

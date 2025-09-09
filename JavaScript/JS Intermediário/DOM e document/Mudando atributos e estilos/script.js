@@ -29,7 +29,7 @@ function alteraCorDeFundoPrimeiroPost(){
 } 
 // classList me dá acesso a todas as classes do elemento
 
-//add() é uma propriedade do objeto classList que permite adicioonar outras classes nos elementos definindo elas como string dentro dos parênteses
+//add() é uma propriedade do objeto classList que permite adicionar outras classes nos elementos definindo elas como string dentro dos parênteses
 
 //                  ALTERANDO ATRIBUTOS
 
