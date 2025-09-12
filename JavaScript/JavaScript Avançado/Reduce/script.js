@@ -4,8 +4,12 @@ let ordens = [
     {cliente:'Raphael',tipo:'venda', quantidade: 21, ativo: 'GOGL34'},
 ]
 
-let quantidadeDeOrdes = 0
+// let quantidadeDeOrdes = 0
 
-for(let i = 0; i < ordens.length; i++){
-    quantidadeDeOrdes += ordens[i].quantidade
-} 
+// for(let i = 0; i < ordens.length; i++){
+//     quantidadeDeOrdes += ordens[i].quantidade
+// } 
+
+let quantidadeDeOrdens = ordens.reduce(function(quantidadeDeOrdens, ordem){
+    return quantidadeDeOrdens + ordem.quantidade
+}, 0)
