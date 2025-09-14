@@ -14,7 +14,6 @@ let pessoas = [
 //     nome.push(pessoas[i].nome) 
 // }
 
-let nomeDasPessoas = pessoas.map(pessoa => pessoa.nome + " tem "  + pessoa.idade + " anos de idade"
-)
+let nomeDasPessoas = pessoas.map(pessoa => pessoa.nome + " tem "  + pessoa.idade + " anos de idade")
 
  console.log(nomeDasPessoas)
