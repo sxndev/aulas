@@ -21,7 +21,7 @@ let frutas = ['banana','maçã', 'laranja', 'uva']
 
 // splice remove o restante dos itens do array original e cria um array novo, é recomendado usar o splice para tirar um elemento do meio do array
 
-// let frutasExtraídas = frutas.splice(começo, quantidade de itens a serem deletados)
+// let frutasExtraídas = frutas.splice(começo, quantidade de itens que continuarão no array)
 
 // let frutasExtraídas = frutas.splice(1,2)
 // deixou somente a maçã e a laranja no console

@@ -1,7 +1,7 @@
 // 'use strict' // é usado para não vazar o this do contexto global para o contexto local e tem que ficar na primeira linha do código
 
 
-// // o this sempre vai estar assossiado a um contexto em um escopo, o this especifíca algo, sua tradução é "isso", é como se el "apontasse" pra um elemento dentro do escopo que ele está
+//  o this sempre vai estar assossiado a um contexto em um escopo, o this especifíca algo, sua tradução é "isso", é como se ele "apontasse" pra um elemento dentro do escopo que ele está
 
 // quando o this está dentro do escopo de um objeto, ele passa a ser aquele objeto
 
@@ -39,7 +39,7 @@ let comida = {
 // posso adicionar uma propriedade depois que o objeto foi instanciado
 
 comida.cozinhar = function(comidaParaCozinhar, temperaturaDeCozimento){
-    console.log('this no contexto do bojeto comida')
+    console.log('this no contexto do objeto comida')
     comidaParaCozinhar.temperatura = temperaturaDeCozimento;
 }
 comida.cozinhar = function(temperaturaDeCozimento){
