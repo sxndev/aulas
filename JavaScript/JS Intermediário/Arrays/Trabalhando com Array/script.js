@@ -19,7 +19,8 @@ listaDeCompras.forEach(function (item, indice) {
   console.log("Item " + (indice + 1) + ": " + item);
 });
 
-item e indice é o nome da fruta em si
+item é a fruta (o elemento atual que está sendo percorrido)
+indice é a posição da fruta
 array é a array completa
 
 */
