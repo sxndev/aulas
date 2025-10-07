@@ -1,3 +1,7 @@
+// O código síncrono é executado em sequência, já o assíncrono é executado em paralelo. Isso significa que uma operação pode ocorrer enquanto outra ainda está sendo processada.
+
+
+
 function colocarAguaPraFerver() {
   console.log("Colocou a água para ferver");
 }

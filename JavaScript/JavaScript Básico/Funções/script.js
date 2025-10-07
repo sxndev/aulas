@@ -57,6 +57,6 @@ console.log(resultadoDaSoma); // exibe o novo resultado da soma
 
   // o return é usado para retornar alguma coisa da função, no exemplo acima, ele está retornando o numero1 sendo subtraído pelo numero2
 
-  // e depois para usarmos a função, devemos chamar ela, exemplo abaixo
+  // e depois para usarmos a função, devemos chamar ela e passar parâmetros se ela tiver, exemplo abaixo
 
   somar(5, 7)

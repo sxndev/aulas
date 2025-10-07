@@ -29,3 +29,98 @@ document.querySelector("select[name='estado']").addEventListener("change", funct
 */
 
 // dentro do ".addEventListener()" nós adicionamos o nome do evento (click, mouseover, change e etc)
+
+
+
+
+// --------------------
+// 📌 Eventos de Mouse
+// --------------------
+/*
+click           - Clique com o botão esquerdo
+dblclick        - Clique duplo
+mousedown       - Botão do mouse pressionado
+mouseup         - Botão do mouse solto
+mousemove       - Movimento do mouse
+mouseenter      - Mouse entra (sem propagação)
+mouseleave      - Mouse sai (sem propagação)
+mouseover       - Mouse entra (com propagação)
+mouseout        - Mouse sai (com propagação)
+contextmenu     - Clique com o botão direito (menu de contexto)
+*/
+
+// ----------------------
+// ⌨️ Eventos de Teclado
+// ----------------------
+/*
+keydown         - Tecla pressionada
+keyup           - Tecla liberada
+keypress        - (Obsoleto) Tecla pressionada (caracteres)
+*/
+
+// ------------------------
+// 🧑‍💻 Eventos de Formulário
+// ------------------------
+/*
+submit          - Envio do formulário
+change          - Mudança em input/select/textarea
+input           - Entrada alterada em tempo real
+focus           - Elemento ganhou foco
+blur            - Elemento perdeu foco
+reset           - Formulário foi resetado
+select          - Texto selecionado dentro de input/textarea
+*/
+
+// ---------------------------------
+// 🧭 Eventos da Janela / Documento
+// ---------------------------------
+/*
+load            - Página ou recurso carregado
+DOMContentLoaded- DOM totalmente carregado (sem esperar imagens)
+resize          - Redimensionamento da janela
+scroll          - Rolagem da página
+unload          - Página sendo descarregada
+beforeunload    - Antes de sair da página
+error           - Erro em script, imagem ou outro recurso
+*/
+
+// -------------------------
+// 📱 Eventos de Touch (Mobile)
+// -------------------------
+/*
+touchstart      - Dedo tocou na tela
+touchmove       - Dedo se moveu na tela
+touchend        - Dedo saiu da tela
+touchcancel     - Toque cancelado pelo sistema
+*/
+
+// ---------------------
+// 🎤 Eventos de Mídia
+// ---------------------
+/*
+play            - Início da reprodução de mídia
+pause           - Reprodução pausada
+ended           - Fim da mídia
+volumechange    - Mudança de volume
+timeupdate      - Atualização do tempo de reprodução
+seeked          - Alteração da posição de reprodução
+error           - Erro ao carregar a mídia
+*/
+
+// ---------------------------
+// ⚡ Outros Eventos Comuns
+// ---------------------------
+/*
+animationstart  - Animação CSS iniciou
+animationend    - Animação CSS terminou
+transitionend   - Transição CSS terminou
+dragstart       - Início do arraste
+drag            - Durante o arraste
+dragend         - Fim do arraste
+dragover        - Elemento sendo arrastado sobre outro
+drop            - Soltar o item arrastado
+dragleave       - Elemento sendo deixado
+pointerdown     - Ponteiro pressionado (mouse, caneta, etc)
+pointerup       - Ponteiro liberado
+pointermove     - Ponteiro movido
+*/
