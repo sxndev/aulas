@@ -25,3 +25,10 @@ ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
   .then(passarCafe)
   .then(tomarCafe)
   .then(lavarXicara);
+
+
+/*
+      ele serve como callback e serve para indicar que uma função só pode ser executada caso outra função seja executada com sucesso e só posso usar ele caso a função retorne uma promise
+
+      no código acima, a função "passarCafe" só é executada caso a função ferver água tiver sucesso, a função "tomarCafe" só é executada caso a função "passarCafe" seja executada com sucesso
+*/
