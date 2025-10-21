@@ -1,0 +1,29 @@
+API = Application Programming Interface
+      Interface de Programação de Aplicações  
+
+    Conjunto de padrões de programação que permite a construção de sistemas que abstraem muita coisa de código
+
+  ENDPOINTS - são URL's, endereços da web que a gente vai chamar pra por exemplo buscar uma lista de clientes, ou pra salvar um novo cliente em um banco de dados
+
+  Tipos de ENDPOINTS:
+
+  - Get
+      busca informações da API ( uma lista de clientes por exemplo )
+
+  - Post
+      envia informações pra API ( cadastrar um cliente novo por exemplo )
+
+  - Put
+      altera informações ( nome, telefone etc )
+
+  - Delete 
+      deleta um registro na API
+
+
+  REQUEST/RESPONSE
+
+  - REQUEST:
+         faz uma requisição para o ENDPOINT
+
+  - RESPONSE: 
+         retorna a requisição com um arquivo de JSON

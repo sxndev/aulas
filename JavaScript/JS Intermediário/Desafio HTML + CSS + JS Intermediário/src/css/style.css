@@ -1,0 +1,67 @@
+html{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    background: linear-gradient(to bottom, #d84f86, #4fa9e7);
+    color: white;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 500px;
+    padding: 30px;
+    gap: 15px;
+}
+.form p{
+    color: black;
+}
+
+input{
+    height:50px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}     
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    font-weight: 700;
+}
+#campo-mensagem{
+    height: 100px;
+}
+#campo-mensagem::placeholder{
+    transform: translate(-1px, -30px);
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3CCC87;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 900;  
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+.borda-verde{
+    border: solid 2px green;
+}
+
+.borda-vermelha{
+    border:solid 2px red;
+} 
