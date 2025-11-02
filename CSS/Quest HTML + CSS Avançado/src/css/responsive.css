@@ -1,0 +1,37 @@
+    @media (max-width:768px){
+        html {
+            overflow-y: visible;
+            background: url(../images/bg-mobile.svg) center center no-repeat var(--purple-color-);
+            background-size: cover;
+        }
+        .section{
+            display: grid;
+        }
+        .header-section{
+            display: flex;
+            justify-content: start;
+        }
+        .main-section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+            /* justify-content: center; */
+        }
+
+        .img-mockups{
+            /* margin-top: 20vh; */
+            min-width: 80%;
+            max-width: 80%;
+}
+        .texts{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-around; */
+            align-items: center;
+            text-align: center;
+        }
+        .texts h2{
+            font-size: 35px;
+        }
+    }
