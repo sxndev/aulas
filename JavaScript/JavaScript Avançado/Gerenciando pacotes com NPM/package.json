@@ -1,0 +1,19 @@
+{
+  "name": "usando-npm",
+  "version": "1.0.0",
+  "description": "projeto de teste de npm do módulo de javaScript avançado do curso DevQuest",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "npm"
+  ],
+  "author": "Nicolas Silva",
+  "license": "ISC",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
+
