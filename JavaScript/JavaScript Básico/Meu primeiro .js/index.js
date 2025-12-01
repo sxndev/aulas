@@ -24,4 +24,3 @@ function teste() {
       alert('poxa... eu vou melhorar meu código, obrigado pelo seu feedback ;)')
     }
 }
-  

@@ -11,21 +11,21 @@ let frutas = ['banana','maçã', 'laranja', 'uva']
 
 // no console apareceu somente a maçã e a laranja
 
-//let frutasExtraídas = frutas.slice(1)
+let frutasExtraidas = frutas.slice(1)
 
 // como aqui eu só defini o início, ele vai começar da posição 1 e vai até o final do array
 
-//console.log(frutasExtraídas)
+console.log(frutasExtraídas)
 
 // SPLICE
 
 // splice remove o restante dos itens do array original e cria um array novo, é recomendado usar o splice para tirar um elemento do meio do array
 
-// let frutasExtraídas = frutas.splice(começo, quantidade de itens que continuarão no array)
+//let frutasExtraidas2 = frutas.splice(começo, quantidade de itens que continuarão no array)
 
-// let frutasExtraídas = frutas.splice(1,2)
+let frutasExtraidas2 = frutas.splice(1,2)
 // deixou somente a maçã e a laranja no console
-// console.log(frutasExtraídas)
+console.log(frutasExtraidas2)
 
  //console.log(frutas)
 
