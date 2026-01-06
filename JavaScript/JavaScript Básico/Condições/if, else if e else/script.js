@@ -13,3 +13,8 @@
     
      
     // nesse código eu estou falando que se o valor da variável for 'Vingadores' deve aparecer uma mensagem, quando eu uso o else if eu coloco mais uma "opção", e caso o valor da variável não seja nenhum dos que eu mostrei, o ultimo valor mostrado será o definido no else
+
+
+
+
+
