@@ -32,7 +32,7 @@ const CardsList = (props) => {
 const DeckOfCards = () => {
 
 
-    // quando usamos o useState, ele retorna a variável que iremos trabalhar, e o segundo nome é a função que serve para atualizar a variável
+    // quando usamos o useState, ele retorna a variável que iremos trabalhar, e o segundo nome é a função que serve para atualizar a variável, ele serve para alterar o estado dos elementos na tela
     
     const [deck, setDeck] = useState({ 
         cards: []
