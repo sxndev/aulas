@@ -85,3 +85,7 @@ const DeckOfCards = () => {
 };
 
 export default DeckOfCards;
+
+// o useState é um hook que permite adicionar o estado do React a componentes funcionais, ele retorna um par de valores: o estado atual e uma função que permite atualizá-lo. No exemplo acima, usamos o useState para criar um estado chamado deck, que inicialmente é um objeto com uma propriedade cards vazia. A função setDeck é usada para atualizar o estado quando os dados das cartas são buscados da API.
+
+// o useEffect é um hook que permite executar efeitos colaterais em componentes funcionais, como buscar dados, configurar assinaturas ou modificar o DOM. No exemplo acima, usamos o useEffect para buscar os dados das cartas da API quando o componente é montado. O array vazio [] passado como segundo argumento indica que o efeito deve ser executado apenas uma vez, semelhante ao comportamento do componentDidMount em componentes de classe.
