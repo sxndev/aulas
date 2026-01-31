@@ -19,4 +19,5 @@ export default App;
   o provider é um componente que envolve os componentes que precisam acessar o contexto.
   o valor do contexto é passado através da prop value do provider.
   para consumir o contexto, usamos o hook useContext, passando o contexto criado como argumento. e para usá-lo nos componentes filhos, basta chamar o hook useContext e acessar os valores fornecidos pelo provider.
+  
 */
