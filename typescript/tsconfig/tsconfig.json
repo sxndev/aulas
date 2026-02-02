@@ -1,0 +1,5 @@
+{
+    "compilerOptions": {
+        "noImplicitAny" : true // se for true, ele não aceita tipo any, se for falso, ele dá um aviso, mas aceita o any 
+    }
+}
