@@ -1,4 +1,5 @@
-/*Entendendo o TypeScript
+/*
+Entendendo o TypeScript
     Instalação e primeiros passos de uso
     Entenda os tipos no TypeScript - Parte 1
     Entenda os tipos no TypeScript - Parte 2

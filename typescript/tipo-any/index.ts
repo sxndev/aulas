@@ -6,8 +6,11 @@ Então, se falamos que o elemento seria de qualquer tipo, mas é importante tent
 Mas quando usar o any então?
 
 Quando estamos trabalhando com código legado que não pode ser facilmente refatorado para usar tipos específicos.
+
 Quando estamos trabalhando com bibliotecas externas cujos tipos não são definidos ou não estão disponíveis.
-Em resumo, o tipo any é uma ferramenta poderosa, mas deve ser usado com cautela. 
+
+Em resumo, o tipo any é uma ferramenta poderosa, mas deve ser usado com cautela.
+
 Sempre que possível, especifique o tipo das variáveis para ter a segurança de tipos que o TypeScript oferece e para tornar o seu código mais fácil de manter e entender.
 */
 

@@ -13,16 +13,16 @@ for (let i = 0; i < listaDeCompras.length; i++) {
   console.log("Item " + (i + 1) + ": " + listaDeCompras[i]);
 }
 
-/* Podemos também utilizar o forEach, um dos métodos de objetos do tipo array:
+//  Podemos também utilizar o forEach, um dos métodos de objetos do tipo array:
 
 listaDeCompras.forEach(function (item, indice) {
   console.log("Item " + (indice + 1) + ": " + item);
 });
 
-item e indice é o nome da fruta em si
-array é a array completa
+// item e indice é o nome da fruta em si
+// array é a array completa
 
-*/
+ 
 
 // MÉTODOS:
 
@@ -44,6 +44,4 @@ array.indexOf(item) // Indica o índice de um item. Veja o exemplo abaixo:
 
 */
 
-console.log(frutas.indexOf("Laranja"));
-
-// Output: 2
+console.log(frutas.indexOf("Laranja")); // Output: 2

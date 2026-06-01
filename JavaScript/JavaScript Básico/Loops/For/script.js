@@ -18,4 +18,4 @@
     }
     // enquanto o valor de i for menor que 10, uma nova mensagem será criada, e assim, adiciona mais um i
 
-    
+    for(let i =0; i < 10; i++){}

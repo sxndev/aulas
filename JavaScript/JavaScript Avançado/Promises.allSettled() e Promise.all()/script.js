@@ -76,5 +76,5 @@ loadAll()
 /*
     o método Promise.all() serve para pegar os resultados de várias promises, porém, se uma falhar, todas falham e e o resultado é o erro
 
-    o Promise.allSettled nunca dá erro e retorna o resultado de todas as Promises, mesmo se forem rsolvidas ou rejeitadas, se uma falhar ela continua a execução e o resultado é uma array das Promises
+    o Promise.allSettled nunca dá erro e retorna o resultado de todas as Promises, mesmo se forem resolvidas ou rejeitadas, se uma falhar ela continua a execução e o resultado é uma array das Promises
 */
