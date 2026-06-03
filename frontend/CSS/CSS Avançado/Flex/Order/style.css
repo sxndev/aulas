@@ -1,0 +1,40 @@
+/*
+  a propriedade order vai definir a ordem dos nossos elementos, seu valor padrão é 0, ele não tem valor fixo pré-definido
+
+  valor maior = se move para direita
+
+  valor menor = se move para esquerda
+
+  essa mudança de ordem ocorre apenas no navegador e não no HTML
+
+  caso 2 elementos tenham o mesmo valor de ordem, eles aparecerão de acordo com sua ordem no html
+*/
+
+.container {
+  display: flex;
+}
+
+.flex {
+  flex: 1;
+}
+
+.order-0 {
+  order: 0;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
