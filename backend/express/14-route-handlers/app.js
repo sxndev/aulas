@@ -73,7 +73,7 @@ const router = userRouter.get('/', function (req,res) {
 
     são funções que funcionam como middlewares e são executadas quando uma determinada rota é acessada.
 
-    eles s]ao responsáveis por lidar com a solicitação do cliente e enviar uma resposta de volta.
+    eles são responsáveis por lidar com a solicitação do cliente e enviar uma resposta de volta.
 
     cada rota no express pode ter vários handlers, que são executados em uma ordem específica
 */
